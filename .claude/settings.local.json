@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(npx create-react-app . --template typescript)",
+      "Bash(npm install:*)",
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(npm start)",
+      "Bash(chmod:*)",
+      "Bash(ls:*)",
+      "Bash(pkill:*)",
+      "Bash(uvicorn app.main:app:*)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(python -m app.main:*)",
+      "Bash(python:*)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)"
+    ]
+  }
+}
