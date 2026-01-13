@@ -30,7 +30,8 @@
 
 ```
 ebook-format-converter/
-├── backend/                 # 后端代码
+├── .claude/                # Claude配置文件
+├── backend/                # 后端代码
 │   ├── app/
 │   │   ├── main.py         # FastAPI应用入口
 │   │   ├── models/         # 数据模型
@@ -40,19 +41,20 @@ ebook-format-converter/
 │   ├── requirements.txt    # Python依赖
 │   ├── venv/              # Python虚拟环境
 │   └── uploads/           # 临时文件存储
-├── frontend/frontend/      # 前端代码
-│   ├── public/
-│   ├── src/
+├── frontend/               # 前端代码
+│   ├── public/            # 静态资源
+│   ├── src/               # React源码
 │   │   ├── components/    # React组件
 │   │   ├── services/      # API调用
 │   │   ├── types/         # TypeScript类型
 │   │   └── App.tsx        # 主应用组件
-│   ├── package.json
-│   └── tsconfig.json
+│   ├── package.json       # 前端依赖配置
+│   ├── tsconfig.json      # TypeScript配置
+│   └── .gitignore         # Git忽略文件
 ├── start_backend.sh        # 后端启动脚本
 ├── start_frontend.sh       # 前端启动脚本
 ├── test_sample.txt         # 测试文件
-└── README.md
+└── README.md              # 项目说明文档
 ```
 
 ## 🔄 支持的转换格式
@@ -90,7 +92,7 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 #### 启动前端
 ```bash
-cd frontend/frontend
+cd frontend
 npm install
 npm start
 ```
