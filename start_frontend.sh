@@ -5,7 +5,7 @@
 echo "启动电子书格式转换器前端服务..."
 
 # 进入前端目录
-cd frontend/frontend
+cd frontend
 
 # 启动React开发服务器
 npm start
