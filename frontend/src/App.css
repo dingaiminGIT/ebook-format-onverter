@@ -1,0 +1,31 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ant-upload-drag {
+  border: 2px dashed #d9d9d9 !important;
+  border-radius: 8px !important;
+  background-color: #fafafa !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-upload-drag:hover {
+  border-color: #1890ff !important;
+  background-color: #f0f8ff !important;
+}
+
+.ant-upload-drag.ant-upload-drag-hover {
+  border-color: #40a9ff !important;
+  background-color: #e6f7ff !important;
+}
